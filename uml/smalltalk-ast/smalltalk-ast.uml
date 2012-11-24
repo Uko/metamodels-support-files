@@ -38,10 +38,6 @@
               name="smalltalk-ast_ClassDiagram.pgml"
               diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
               diagramname="Class Diagram" />
-      <member type="pgml"
-              name="smalltalk-ast_UseCaseDiagram.pgml"
-              diagramclass="org.argouml.uml.diagram.use_case.ui.UMLUseCaseDiagram"
-              diagramname="Use Case Diagram" />
       <member type="todo"
               name="smalltalk-ast.todo" />
     </members>
@@ -58,7 +54,7 @@
 			CodeGeneration
 		</plugin>
 </profile>
-<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Sun Nov 18 18:06:34 GMT+02:00 2012'>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Tue Nov 20 23:15:26 GMT+02:00 2012'>
   <XMI.header>    <XMI.documentation>
       <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
       <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
@@ -204,9 +200,6 @@
                   </UML:Multiplicity.range>
                 </UML:Multiplicity>
               </UML:StructuralFeature.multiplicity>
-              <UML:StructuralFeature.type>
-                <UML:Class xmi.idref = '10-0-2-7-210bcae5:13acd2fa9df:-8000:0000000000000AE8'/>
-              </UML:StructuralFeature.type>
             </UML:Attribute>
             <UML:Operation xmi.id = '10-0-2-7-210bcae5:13acd2fa9df:-8000:0000000000000AF6'
               name = 'kind' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
@@ -239,9 +232,6 @@
                   </UML:Multiplicity.range>
                 </UML:Multiplicity>
               </UML:StructuralFeature.multiplicity>
-              <UML:StructuralFeature.type>
-                <UML:Class xmi.idref = '10-0-2-7-210bcae5:13acd2fa9df:-8000:0000000000000AE8'/>
-              </UML:StructuralFeature.type>
             </UML:Attribute>
             <UML:Operation xmi.id = '10-0-2-7-7ce2e683:13aefc43d49:-8000:0000000000000AF9'
               name = 'selector' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
@@ -268,15 +258,6 @@
         <UML:Class xmi.id = '-64--88-0-32-4051d98a:13a873c0985:-8000:0000000000000A92'
           name = 'FAMIXASTStatementNode' visibility = 'public' isSpecification = 'false'
           isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
-        <UML:Class xmi.id = '10-0-2-7--634c0696:13a980af6a8:-8000:0000000000000AA2'
-          name = 'STRING' visibility = 'public' isSpecification = 'false' isRoot = 'false'
-          isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
-        <UML:Class xmi.id = '10-0-2-7-210bcae5:13acd2fa9df:-8000:0000000000000ADC'
-          name = 'Object' visibility = 'public' isSpecification = 'false' isRoot = 'false'
-          isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
-        <UML:Class xmi.id = '10-0-2-7-210bcae5:13acd2fa9df:-8000:0000000000000AE8'
-          name = 'Symbol' visibility = 'public' isSpecification = 'false' isRoot = 'false'
-          isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
         <UML:Association xmi.id = '10-0-2-7-210bcae5:13acd2fa9df:-8000:0000000000000B01'
           name = '' isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
           <UML:Association.connection>
@@ -304,9 +285,6 @@
             </UML:AssociationEnd>
           </UML:Association.connection>
         </UML:Association>
-        <UML:Class xmi.id = '10-0-2-7-7ce2e683:13aefc43d49:-8000:0000000000000AC7'
-          name = 'FamixASTExpression' visibility = 'public' isSpecification = 'false'
-          isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
         <UML:Class xmi.id = '10-0-2-7-7ce2e683:13aefc43d49:-8000:0000000000000AD7'
           name = 'FAMIXASTAssignmentExpression' visibility = 'public' isSpecification = 'false'
           isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
@@ -568,9 +546,6 @@
             </UML:AssociationEnd>
           </UML:Association.connection>
         </UML:Association>
-        <UML:Class xmi.id = '10-0-2-7-2518c3ed:13af2098571:-8000:0000000000000ACC'
-          name = 'boolean' visibility = 'public' isSpecification = 'false' isRoot = 'false'
-          isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
         <UML:Class xmi.id = '10-0-2-7-64c78652:13b0ebc757f:-8000:0000000000000AC5'
           name = 'FAMIXASTReturnStatement' visibility = 'public' isSpecification = 'false'
           isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
@@ -1259,7 +1234,7 @@
         bold="false"
         textsize="13"
         justification="Left"
-      >kind : Symbol</text>
+      >kind</text>
       <text name="Fig4.4.2"
         x="1240"
         y="714"
@@ -1275,7 +1250,7 @@
         bold="false"
         textsize="13"
         justification="Left"
-      >selector : Symbol</text>
+      >selector</text>
     </group>
     <rectangle name="Fig4.5"
       x="1239"
@@ -3288,10 +3263,6 @@
               y="512" />
     </path>
   </group>
-</pgml>
-<pgml description="org.argouml.uml.diagram.use_case.ui.UMLUseCaseDiagram|10-0-2-6-669bdcbc:13a850bda4f:-8000:0000000000000865"
-      name="Use Case Diagram"
->
 </pgml>
 <todo>
 <todolist>

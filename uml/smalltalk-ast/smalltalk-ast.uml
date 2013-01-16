@@ -54,7 +54,7 @@
 			CodeGeneration
 		</plugin>
 </profile>
-<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Tue Jan 15 18:11:56 CET 2013'>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Wed Jan 16 15:27:13 CET 2013'>
   <XMI.header>    <XMI.documentation>
       <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
       <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
@@ -62,7 +62,7 @@
     <XMI.metamodel xmi.name="UML" xmi.version="1.4"/></XMI.header>
   <XMI.content>
     <UML:Model xmi.id = '10-0-2-6-669bdcbc:13a850bda4f:-8000:0000000000000865'
-      name = 'untitledModel' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+      name = 'Fast metamodel' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
       isAbstract = 'false'>
       <UML:Namespace.ownedElement>
         <UML:Class xmi.id = '10-0-2-6-669bdcbc:13a850bda4f:-8000:0000000000000866'
@@ -788,7 +788,7 @@
           </UML:Association.connection>
         </UML:Association>
         <UML:Class xmi.id = '10-0-2-51--5d76137d:13c3978a355:-8000:0000000000000AF1'
-          name = 'FAMIXStructuralEntity' visibility = 'public' isSpecification = 'false'
+          name = 'FAMIXNamedEntity' visibility = 'public' isSpecification = 'false'
           isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
         <UML:Association xmi.id = '10-0-2-51--5d76137d:13c3978a355:-8000:0000000000000AF2'
           name = '' isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
@@ -3989,7 +3989,7 @@
       bold="false"
       textsize="13"
       justification="Center"
-    >FAMIXStructuralEntity</text>
+    >FAMIXNamedEntity</text>
     <group name="Fig37.2"
          description="org.argouml.uml.diagram.ui.FigStereotypesGroup[313, 929, 144, 0]"
          href="10-0-2-51--5d76137d:13c3978a355:-8000:0000000000000AF1"

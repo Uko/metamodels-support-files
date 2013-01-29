@@ -54,7 +54,7 @@
 			CodeGeneration
 		</plugin>
 </profile>
-<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Tue Jan 29 13:44:41 CET 2013'>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Tue Jan 29 13:48:33 CET 2013'>
   <XMI.header>    <XMI.documentation>
       <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
       <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
@@ -2023,7 +2023,7 @@
     </path>
   </group>
   <group name="Fig7"
-       description="org.argouml.uml.diagram.static_structure.ui.FigClass[216, 784, 184, 72]pathVisible=false;stereotypeView=0;operationsVisible=true;attributesVisible=true;"
+       description="org.argouml.uml.diagram.static_structure.ui.FigClass[216, 784, 185, 72]pathVisible=false;stereotypeView=0;operationsVisible=true;attributesVisible=true;"
        href="10-0-2-7-7ce2e683:13aefc43d49:-8000:0000000000000AD7"
        fill="1"
        fillcolor="white"
@@ -2036,7 +2036,7 @@
     <rectangle name="Fig7.0"
       x="216"
       y="784"
-      width="184"
+      width="185"
       height="72"
       fill="1"
       fillcolor="white"
@@ -2046,7 +2046,7 @@
     <text name="Fig7.1"
       x="217"
       y="785"
-      width="182"
+      width="183"
       height="23"
       fill="0"
       fillcolor="white"
@@ -2085,7 +2085,7 @@
     <rectangle name="Fig7.3"
       x="216"
       y="808"
-      width="184"
+      width="185"
       height="1"
       fill="1"
       fillcolor="black"
@@ -2093,7 +2093,7 @@
       strokecolor="black"
     />
     <group name="Fig7.4"
-         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[217, 809, 182, 22]"
+         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[217, 809, 183, 22]"
          href="10-0-2-7-7ce2e683:13aefc43d49:-8000:0000000000000AD7"
          fill="0"
          fillcolor="white"
@@ -2106,7 +2106,7 @@
       <rectangle name="Fig7.4.0"
         x="217"
         y="809"
-        width="182"
+        width="183"
         height="22"
         fill="0"
         fillcolor="white"
@@ -2117,7 +2117,7 @@
     <rectangle name="Fig7.5"
       x="216"
       y="831"
-      width="184"
+      width="185"
       height="1"
       fill="1"
       fillcolor="black"
@@ -2125,7 +2125,7 @@
       strokecolor="black"
     />
     <group name="Fig7.6"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[217, 832, 182, 22]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[217, 832, 183, 22]"
          href="10-0-2-7-7ce2e683:13aefc43d49:-8000:0000000000000AD7"
          fill="0"
          fillcolor="white"
@@ -2138,7 +2138,7 @@
       <rectangle name="Fig7.6.0"
         x="217"
         y="832"
-        width="182"
+        width="183"
         height="22"
         fill="0"
         fillcolor="white"
@@ -2787,8 +2787,8 @@
                         classname="org.argouml.uml.diagram.ui.PathItemPlacement"
                         figclassname="org.argouml.uml.diagram.ui.FigAssociationEndAnnotation"
                         ownerhref="10-0-2-7-7ce2e683:13aefc43d49:-8000:0000000000000B0E"
-                        angle="146.0"
-                        offset="38" />
+                        angle="140.0"
+                        offset="34" />
     </private>
     <path name="Fig15.0"
       description="org.argouml.gefext.ArgoFigPoly"

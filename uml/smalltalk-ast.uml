@@ -54,7 +54,7 @@
 			CodeGeneration
 		</plugin>
 </profile>
-<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Wed Jan 30 09:35:06 CET 2013'>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Mon Feb 11 16:56:37 CET 2013'>
   <XMI.header>    <XMI.documentation>
       <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
       <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
@@ -770,14 +770,14 @@
           name = '' isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
           <UML:Association.connection>
             <UML:AssociationEnd xmi.id = '10-0-2-51--5d76137d:13c3978a355:-8000:0000000000000AF3'
-              name = 'fastVariable' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
-              ordering = 'unordered' aggregation = 'aggregate' targetScope = 'instance'
+              name = 'fastNamedEntities' visibility = 'public' isSpecification = 'false'
+              isNavigable = 'true' ordering = 'unordered' aggregation = 'aggregate' targetScope = 'instance'
               changeability = 'changeable'>
               <UML:AssociationEnd.multiplicity>
-                <UML:Multiplicity xmi.id = '10-0-2-51--5d76137d:13c3978a355:-8000:0000000000000AF6'>
+                <UML:Multiplicity xmi.id = '10--55-9-52--c200856:13cc9ec622a:-8000:0000000000000B15'>
                   <UML:Multiplicity.range>
-                    <UML:MultiplicityRange xmi.id = '10-0-2-51--5d76137d:13c3978a355:-8000:0000000000000AF5'
-                      lower = '0' upper = '1'/>
+                    <UML:MultiplicityRange xmi.id = '10--55-9-52--c200856:13cc9ec622a:-8000:0000000000000B14'
+                      lower = '0' upper = '-1'/>
                   </UML:Multiplicity.range>
                 </UML:Multiplicity>
               </UML:AssociationEnd.multiplicity>
@@ -786,8 +786,9 @@
               </UML:AssociationEnd.participant>
             </UML:AssociationEnd>
             <UML:AssociationEnd xmi.id = '10-0-2-51--5d76137d:13c3978a355:-8000:0000000000000AF4'
-              name = 'famixVariable' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
-              ordering = 'unordered' aggregation = 'none' targetScope = 'instance' changeability = 'changeable'>
+              name = 'famixNamedEntity' visibility = 'public' isSpecification = 'false'
+              isNavigable = 'true' ordering = 'unordered' aggregation = 'none' targetScope = 'instance'
+              changeability = 'changeable'>
               <UML:AssociationEnd.multiplicity>
                 <UML:Multiplicity xmi.id = '10-0-2-51--5d76137d:13c3978a355:-8000:0000000000000AF8'>
                   <UML:Multiplicity.range>
@@ -4300,8 +4301,8 @@
                         classname="org.argouml.uml.diagram.ui.PathItemPlacement"
                         figclassname="org.argouml.uml.diagram.ui.FigAssociationEndAnnotation"
                         ownerhref="10-0-2-51--5d76137d:13c3978a355:-8000:0000000000000AF3"
-                        angle="54.0"
-                        offset="51" />
+                        angle="64.0"
+                        offset="53" />
       <argouml:pathitem figname="Fig36.4"
                         classname="org.argouml.uml.diagram.ui.PathItemPlacement"
                         figclassname="org.argouml.uml.diagram.ui.FigMultiplicity"
@@ -4313,7 +4314,7 @@
                         figclassname="org.argouml.uml.diagram.ui.FigAssociationEndAnnotation"
                         ownerhref="10-0-2-51--5d76137d:13c3978a355:-8000:0000000000000AF4"
                         angle="85.0"
-                        offset="48" />
+                        offset="62" />
     </private>
     <path name="Fig36.0"
       description="org.argouml.gefext.ArgoFigPoly"
@@ -4917,7 +4918,7 @@
       justification="Center"
     >FASTSymbolLiteral</text>
     <group name="Fig42.2"
-         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[873, 969, 126, 0]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[873, 969, 134, 0]"
          href="10--55-9-52-1df53bcc:13c42892e79:-8000:0000000000000B13"
          fill="0"
          fillcolor="white"
@@ -4931,7 +4932,7 @@
       <rectangle name="Fig42.2.0"
         x="873"
         y="969"
-        width="126"
+        width="134"
         height="0"
         fill="0"
         fillcolor="white"
@@ -5167,7 +5168,7 @@
       justification="Center"
     >FASTByteArrayLiteral</text>
     <group name="Fig44.2"
-         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[697, 969, 150, 0]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[697, 969, 138, 0]"
          href="10--55-9-52-1df53bcc:13c42892e79:-8000:0000000000000B15"
          fill="0"
          fillcolor="white"
@@ -5181,7 +5182,7 @@
       <rectangle name="Fig44.2.0"
         x="697"
         y="969"
-        width="150"
+        width="138"
         height="0"
         fill="0"
         fillcolor="white"
@@ -5872,7 +5873,7 @@
       justification="Center"
     >FASTBooleanLiteral</text>
     <group name="Fig57.2"
-         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[1122, 1076, 64, 0]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[1121, 1081, 128, 0]"
          href="10--55-9-52--3243a1e0:13c865a511b:-8000:0000000000000B0D"
          fill="0"
          fillcolor="white"
@@ -5884,9 +5885,9 @@
       </private>
       
       <rectangle name="Fig57.2.0"
-        x="1122"
-        y="1076"
-        width="64"
+        x="1121"
+        y="1081"
+        width="128"
         height="0"
         fill="0"
         fillcolor="white"
@@ -5997,7 +5998,7 @@
       justification="Center"
     >FASTUndefinedLiteral</text>
     <group name="Fig58.2"
-         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[610, 1081, 64, 0]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[609, 1081, 143, 0]"
          href="10--55-9-52--3243a1e0:13c865a511b:-8000:0000000000000B0E"
          fill="0"
          fillcolor="white"
@@ -6009,9 +6010,9 @@
       </private>
       
       <rectangle name="Fig58.2.0"
-        x="610"
+        x="609"
         y="1081"
-        width="64"
+        width="143"
         height="0"
         fill="0"
         fillcolor="white"
@@ -6103,7 +6104,7 @@
                         offset="-10" />
     </private>
     <path name="Fig59.0"
-      description="org.tigris.gef.presentation.FigPoly"
+      description="org.argouml.gefext.ArgoFigPoly"
       fill="0"
       fillcolor="white"
       stroke="1"
@@ -6138,7 +6139,7 @@
                         offset="146" />
     </private>
     <path name="Fig60.0"
-      description="org.tigris.gef.presentation.FigPoly"
+      description="org.argouml.gefext.ArgoFigPoly"
       fill="0"
       fillcolor="white"
       stroke="1"
@@ -6199,7 +6200,7 @@
                         offset="28" />
     </private>
     <path name="Fig61.0"
-      description="org.tigris.gef.presentation.FigPoly"
+      description="org.argouml.gefext.ArgoFigPoly"
       fill="0"
       fillcolor="white"
       stroke="1"

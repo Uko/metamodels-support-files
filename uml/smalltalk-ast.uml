@@ -54,7 +54,7 @@
 			CodeGeneration
 		</plugin>
 </profile>
-<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Mon Feb 25 17:54:30 CET 2013'>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Mon Feb 25 18:18:02 CET 2013'>
   <XMI.header>    <XMI.documentation>
       <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
       <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
@@ -347,17 +347,6 @@
           <UML:GeneralizableElement.generalization>
             <UML:Generalization xmi.idref = '10-0-2-7-7ce2e683:13aefc43d49:-8000:0000000000000AFF'/>
           </UML:GeneralizableElement.generalization>
-          <UML:Classifier.feature>
-            <UML:Operation xmi.id = '10--55-9-52-1df53bcc:13c42892e79:-8000:0000000000000AF6'
-              name = 'receiver' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
-              isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
-              isAbstract = 'false'>
-              <UML:BehavioralFeature.parameter>
-                <UML:Parameter xmi.id = '10--55-9-52-1df53bcc:13c42892e79:-8000:0000000000000AF7'
-                  name = 'return' isSpecification = 'false' kind = 'return'/>
-              </UML:BehavioralFeature.parameter>
-            </UML:Operation>
-          </UML:Classifier.feature>
         </UML:Class>
         <UML:Generalization xmi.id = '10-0-2-7-7ce2e683:13aefc43d49:-8000:0000000000000AFF'
           isSpecification = 'false'>
@@ -2806,7 +2795,7 @@
       strokecolor="black"
     />
     <group name="Fig12.4"
-         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[1105, 809, 158, 21]"
+         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[1105, 809, 158, 22]"
          href="10-0-2-7-7ce2e683:13aefc43d49:-8000:0000000000000AFE"
          fill="0"
          fillcolor="white"
@@ -2820,7 +2809,7 @@
         x="1105"
         y="809"
         width="158"
-        height="21"
+        height="22"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -2829,7 +2818,7 @@
     </group>
     <rectangle name="Fig12.5"
       x="1104"
-      y="829"
+      y="831"
       width="160"
       height="1"
       fill="1"
@@ -2838,7 +2827,7 @@
       strokecolor="black"
     />
     <group name="Fig12.6"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[1105, 830, 158, 25]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[1105, 832, 158, 22]"
          href="10-0-2-7-7ce2e683:13aefc43d49:-8000:0000000000000AFE"
          fill="0"
          fillcolor="white"
@@ -2850,30 +2839,14 @@
       
       <rectangle name="Fig12.6.0"
         x="1105"
-        y="830"
+        y="832"
         width="158"
-        height="25"
+        height="22"
         fill="0"
         fillcolor="white"
         stroke="0"
         strokecolor="black"
       />
-      <text name="Fig12.6.1"
-        x="1105"
-        y="830"
-        width="158"
-        height="23"
-        fill="0"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        textcolor="black"
-        font="Lucida Grande"
-        italic="false"
-        bold="false"
-        textsize="13"
-        justification="Left"
-      >receiver()</text>
     </group>
   </group>
   <group name="Fig13"

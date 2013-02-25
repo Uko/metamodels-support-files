@@ -54,7 +54,7 @@
 			CodeGeneration
 		</plugin>
 </profile>
-<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Mon Feb 25 14:47:09 CET 2013'>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Mon Feb 25 15:25:27 CET 2013'>
   <XMI.header>    <XMI.documentation>
       <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
       <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
@@ -1276,18 +1276,9 @@
           name = 'FASTStatementBlock' visibility = 'public' isSpecification = 'false'
           isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
           <UML:GeneralizableElement.generalization>
-            <UML:Generalization xmi.idref = '10--55-9-52-289a4483:13d10b91efe:-8000:0000000000000D83'/>
+            <UML:Generalization xmi.idref = '10--55-9-52--7f7ef9f7:13d1175268c:-8000:0000000000000B49'/>
           </UML:GeneralizableElement.generalization>
         </UML:Class>
-        <UML:Generalization xmi.id = '10--55-9-52-289a4483:13d10b91efe:-8000:0000000000000D83'
-          isSpecification = 'false'>
-          <UML:Generalization.child>
-            <UML:Class xmi.idref = '10--55-9-52-289a4483:13d10b91efe:-8000:0000000000000D81'/>
-          </UML:Generalization.child>
-          <UML:Generalization.parent>
-            <UML:Class xmi.idref = '-64--88-0-32-4051d98a:13a873c0985:-8000:0000000000000A92'/>
-          </UML:Generalization.parent>
-        </UML:Generalization>
         <UML:Association xmi.id = '10--55-9-52-289a4483:13d10b91efe:-8000:0000000000000D84'
           name = '' isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
           <UML:Association.connection>
@@ -1325,6 +1316,15 @@
             </UML:AssociationEnd>
           </UML:Association.connection>
         </UML:Association>
+        <UML:Generalization xmi.id = '10--55-9-52--7f7ef9f7:13d1175268c:-8000:0000000000000B49'
+          isSpecification = 'false'>
+          <UML:Generalization.child>
+            <UML:Class xmi.idref = '10--55-9-52-289a4483:13d10b91efe:-8000:0000000000000D81'/>
+          </UML:Generalization.child>
+          <UML:Generalization.parent>
+            <UML:Class xmi.idref = '-64--88-0-32-4051d98a:13a873c0985:-8000:0000000000000A92'/>
+          </UML:Generalization.parent>
+        </UML:Generalization>
       </UML:Namespace.ownedElement>
     </UML:Model>
   </XMI.content>
@@ -6802,41 +6802,6 @@
     </group>
   </group>
   <group name="Fig66"
-       description="org.argouml.uml.diagram.ui.FigGeneralization"
-       href="10--55-9-52-289a4483:13d10b91efe:-8000:0000000000000D83"
-       stroke="1"
-       strokecolor="51 51 153"
-  >
-    <private>
-      sourcePortFig="Fig65.0"
-      destPortFig="Fig5.0"
-      sourceFigNode="Fig65"
-      destFigNode="Fig5"
-      <argouml:pathitem figname="Fig66.1"
-                        classname="org.argouml.uml.diagram.ui.PathItemPlacement"
-                        figclassname="org.argouml.uml.diagram.ui.FigTextGroup"
-                        ownerhref="10--55-9-52-289a4483:13d10b91efe:-8000:0000000000000D83"
-                        angle="33.0"
-                        offset="18" />
-    </private>
-    <path name="Fig66.0"
-      description="org.argouml.gefext.ArgoFigPoly"
-      fill="0"
-      fillcolor="white"
-      stroke="1"
-      strokecolor="51 51 153"
-    >
-      <moveto x="632"
-              y="432" />
-      <lineto x="632"
-              y="408" />
-      <lineto x="704"
-              y="408" />
-      <lineto x="704"
-              y="378" />
-    </path>
-  </group>
-  <group name="Fig67"
        description="org.argouml.uml.diagram.ui.FigAssociation"
        href="10--55-9-52-289a4483:13d10b91efe:-8000:0000000000000D84"
        sourceConnector="10--55-9-52-289a4483:13d10b91efe:-8000:0000000000000D85"
@@ -6849,38 +6814,38 @@
       destPortFig="Fig65"
       sourceFigNode="Fig0"
       destFigNode="Fig65"
-      <argouml:pathitem figname="Fig67.1"
+      <argouml:pathitem figname="Fig66.1"
                         classname="org.argouml.uml.diagram.ui.PathItemPlacement"
                         figclassname="org.argouml.uml.diagram.ui.FigTextGroup"
                         ownerhref="10--55-9-52-289a4483:13d10b91efe:-8000:0000000000000D84"
                         angle="270.0"
                         offset="33" />
-      <argouml:pathitem figname="Fig67.2"
+      <argouml:pathitem figname="Fig66.2"
                         classname="org.argouml.uml.diagram.ui.PathItemPlacement"
                         figclassname="org.argouml.uml.diagram.ui.FigMultiplicity"
                         ownerhref="10--55-9-52-289a4483:13d10b91efe:-8000:0000000000000D85"
                         angle="315.0"
                         offset="5" />
-      <argouml:pathitem figname="Fig67.3"
+      <argouml:pathitem figname="Fig66.3"
                         classname="org.argouml.uml.diagram.ui.PathItemPlacement"
                         figclassname="org.argouml.uml.diagram.ui.FigAssociationEndAnnotation"
                         ownerhref="10--55-9-52-289a4483:13d10b91efe:-8000:0000000000000D85"
                         angle="17.0"
                         offset="75" />
-      <argouml:pathitem figname="Fig67.4"
+      <argouml:pathitem figname="Fig66.4"
                         classname="org.argouml.uml.diagram.ui.PathItemPlacement"
                         figclassname="org.argouml.uml.diagram.ui.FigMultiplicity"
                         ownerhref="10--55-9-52-289a4483:13d10b91efe:-8000:0000000000000D86"
                         angle="232.0"
                         offset="11" />
-      <argouml:pathitem figname="Fig67.5"
+      <argouml:pathitem figname="Fig66.5"
                         classname="org.argouml.uml.diagram.ui.PathItemPlacement"
                         figclassname="org.argouml.uml.diagram.ui.FigAssociationEndAnnotation"
                         ownerhref="10--55-9-52-289a4483:13d10b91efe:-8000:0000000000000D86"
                         angle="156.0"
                         offset="51" />
     </private>
-    <path name="Fig67.0"
+    <path name="Fig66.0"
       description="org.argouml.gefext.ArgoFigPoly"
       fill="0"
       fillcolor="white"
@@ -6895,6 +6860,41 @@
               y="488" />
       <lineto x="560"
               y="488" />
+    </path>
+  </group>
+  <group name="Fig67"
+       description="org.argouml.uml.diagram.ui.FigGeneralization"
+       href="10--55-9-52--7f7ef9f7:13d1175268c:-8000:0000000000000B49"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+      sourcePortFig="Fig65.0"
+      destPortFig="Fig5"
+      sourceFigNode="Fig65"
+      destFigNode="Fig5"
+      <argouml:pathitem figname="Fig67.1"
+                        classname="org.argouml.uml.diagram.ui.PathItemPlacement"
+                        figclassname="org.argouml.uml.diagram.ui.FigTextGroup"
+                        ownerhref="10--55-9-52--7f7ef9f7:13d1175268c:-8000:0000000000000B49"
+                        angle="-98.0"
+                        offset="29" />
+    </private>
+    <path name="Fig67.0"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="624"
+              y="432" />
+      <lineto x="624"
+              y="408" />
+      <lineto x="704"
+              y="408" />
+      <lineto x="704"
+              y="378" />
     </path>
   </group>
 </pgml>

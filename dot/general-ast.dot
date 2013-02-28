@@ -1,0 +1,43 @@
+digraph {
+    subgraph famix {
+        node[color="gray"];
+        FAMIXBehaviouralEntity;
+        FAMIXNamedEntity;
+    }
+
+    subgraph inheritance {
+        edge[dir="back"; arrowtail="empty"];
+        color=white;
+            
+        subgraph clusterStatementBehaviouralEntity{
+            FASTBehaviouralEntity -> FASTNamedBehaviouralEntity;
+        }
+        subgraph clusterStatement{
+            FASTStatement -> FASTStatementBlock;
+        }
+        subgraph clusterStatement{
+            FASTExpression -> FASTVariableExpression;
+            FASTExpression -> FASTLiteral;
+        }
+    }
+    
+    subgraph bidirectional {
+        edge[dir="both"];
+        FASTBehaviouralEntity -> FASTStatementBlock;
+        FASTStatementBlock -> FASTStatement;
+        FASTNamedBehaviouralEntity -> FAMIXBehaviouralEntity;
+        FASTNamedEntity -> FAMIXNamedEntity;
+        FASTVariableExpression -> FASTNamedEntity;
+    }
+
+    FASTBehaviouralEntity -> FASTNamedEntity;
+    FASTBehaviouralEntity -> FASTNamedEntity;
+    
+    subgraph dashedEdge {
+        edge[style="dashed"];
+        FASTExpression -> FASTStatement;
+        FASTExpression -> FASTExpression;
+    }
+    
+    {rank = same; FASTExpression; FASTStatement;}
+}

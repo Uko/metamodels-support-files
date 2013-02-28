@@ -1,0 +1,68 @@
+digraph {
+    
+    
+    subgraph famix {
+        node[color="gray"];
+        FAMIXBehaviouralEntity;
+        FAMIXNamedEntity;
+        FAMIXInvocation;
+    }
+
+    subgraph inheritance {
+        edge[dir="back"; arrowtail="empty"; arrowsize="1.75"];
+        color=white;
+            
+        subgraph clusterStatementBehaviouralEntity{
+            BehaviouralEntity -> NamedBehaviouralEntity;
+            BehaviouralEntity -> BlockDefinition;
+        }
+        subgraph clusterStatement{
+            Statement -> StatementBlock;
+            Statement -> SmalltalkReturnStatement;
+            Statement -> SmalltalkExpressionStatement;
+        }
+        subgraph clusterExpression{
+            Expression -> VariableExpression;
+            Expression -> AssignmentExpression;
+            Expression -> ArrayExpression;
+            Expression -> BlockExpression;
+            Expression -> Cascade;
+            Expression -> MessageSend;
+            Expression -> Literal;
+        }
+        subgraph clusterLiteral{
+            Literal -> ArrayLiteral;
+            Literal -> ByteArrayLiteral;
+            Literal -> SymbolLiteral;
+            Literal -> StringLiteral;
+            Literal -> UndefinedLiteral;
+            Literal -> NumberLiteral;
+            Literal -> CharacterLiteral;
+            Literal -> BooleanLiteral;
+        }
+    }
+    
+    subgraph bidirectional {
+        edge[dir="both"];
+        BehaviouralEntity -> StatementBlock;
+        StatementBlock -> Statement;
+        NamedBehaviouralEntity -> FAMIXBehaviouralEntity;
+        NamedEntity -> FAMIXNamedEntity;
+        VariableExpression -> NamedEntity;
+        ArrayExpression -> BlockDefinition;
+        SmalltalkReturnStatement -> Expression;
+        SmalltalkExpressionStatement -> Expression;
+        AssignmentExpression -> NamedEntity;
+        ArrayExpression -> Expression;
+        Cascade -> Expression;
+        Cascade -> MessageSend;
+        MessageSend -> FAMIXInvocation;
+        MessageSend -> Expression;
+        MessageSend -> Expression;
+    }
+
+    BehaviouralEntity -> NamedEntity;
+    BehaviouralEntity -> NamedEntity;
+    ByteArrayLiteral -> NumberLiteral;
+    ArrayLiteral -> Literal;
+}

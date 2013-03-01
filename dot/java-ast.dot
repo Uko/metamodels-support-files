@@ -1,0 +1,67 @@
+digraph {
+    subgraph famix {
+        node[color="gray"];
+        FAMIXBehaviouralEntity;
+        FAMIXNamedEntity;
+        FAMIXType;
+    }
+
+    subgraph inheritance {
+        edge[dir="back"; arrowtail="empty"; arrowsize="1.75"];
+        color=white;
+            
+        subgraph clusterStatementBehaviouralEntity{
+            BehaviouralEntity -> NamedBehaviouralEntity;
+        }
+        subgraph clusterStatement{
+            Statement -> StatementBlock;
+            Statement -> JavaExpressionStatement;
+            Statement -> JavaReturnStatement;
+            Statement -> WhileStatement;
+            Statement -> DoStatement;
+            Statement -> IfStatement;
+            Statement -> ForStatement;
+            Statement -> VariableDeclarationStatement;
+        }
+        subgraph clusterStatement{
+            Expression -> VariableExpression;
+            Expression -> Literal;
+        }
+    }
+    
+    subgraph bidirectional {
+        edge[dir="both"];
+        BehaviouralEntity -> StatementBlock;
+        StatementBlock -> Statement;
+        NamedBehaviouralEntity -> FAMIXBehaviouralEntity;
+        NamedEntity -> FAMIXNamedEntity;
+        VariableExpression -> NamedEntity;
+        
+        JavaExpressionStatement -> Expression;
+        JavaReturnStatement -> Expression;
+        WhileStatement -> Expression;
+        DoStatement -> Expression;
+        IfStatement -> Expression;
+        ForStatement -> Expression;
+        
+        JavaExpressionStatement -> Statement;
+        JavaReturnStatement -> Statement;
+        WhileStatement -> Statement;
+        DoStatement -> Statement;
+        IfStatement -> Statement;
+        IfStatement -> Statement;
+        ForStatement -> Statement;
+        ForStatement -> Statement;
+        ForStatement -> Statement;
+        
+        VariableDeclarationStatement -> VariableDeclarator;
+    }
+
+    BehaviouralEntity -> NamedEntity;
+    BehaviouralEntity -> NamedEntity;
+
+    VariableDeclarationStatement -> FAMIXType;
+        
+    VariableDeclarator -> NamedEntity;
+    VariableDeclarator -> Expression;
+}

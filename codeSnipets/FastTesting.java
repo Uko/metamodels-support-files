@@ -2,9 +2,7 @@ public class FastTesting {
     public int spaceship(Object other) {
         if (this == other) {
             return 0;
-        } else {
-            return 1;
-        }
+        } else return 1;
     }
 
 	public String customReturn(String item) {
@@ -13,6 +11,7 @@ public class FastTesting {
 	
     public void methodCall() {
 		customReturn(super.toString());
+		"sth".length();
     }
 
     public float middle(float a, float b) {
@@ -45,6 +44,16 @@ public class FastTesting {
         do {
             i=i-1;
         } while (i>0);
+    }
+    
+    public void select(int candidate) {
+    	switch (candidate) {
+		case 1: System.out.print("1");
+			break;
+		case 2:
+		default:
+			break;
+		}
     }
 
 }

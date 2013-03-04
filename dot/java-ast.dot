@@ -14,18 +14,34 @@ digraph {
             BehaviouralEntity -> NamedBehaviouralEntity;
         }
         subgraph clusterStatement{
-            Statement -> StatementBlock;
-            Statement -> JavaExpressionStatement;
-            Statement -> JavaReturnStatement;
-            Statement -> WhileStatement;
-            Statement -> DoStatement;
-            Statement -> IfStatement;
-            Statement -> ForStatement;
+            Statement ->                    StatementBlock;
+            Statement ->      JavaExpressionStatement;
+            Statement ->          JavaReturnStatement;
+            Statement ->               WhileStatement;
+            Statement ->                  DoStatement;
+            Statement ->                  IfStatement;
+            Statement ->                 ForStatement;
             Statement -> VariableDeclarationStatement;
+            Statement ->              SwitchStatement;
+            Statement ->                CaseStatement;
+            Statement ->               BreakStatement;
+            Statement ->            ContinueStatement;
         }
-        subgraph clusterStatement{
+        subgraph clusterExpression{
             Expression -> VariableExpression;
+            Expression -> PrimaryExpression;
             Expression -> Literal;
+            Expression -> This;
+            Expression -> Parenthesis;
+            Expression -> MethodInvocation;
+        }
+        subgraph clusterLiteral{
+            Literal -> IntegerLiteral
+            Literal -> FloatingPointLiteral
+            Literal -> BooleanLiteral
+            Literal -> CharacterLiteral
+            Literal -> StringLiteral
+            Literal -> NullLiteral
         }
     }
     
@@ -38,23 +54,30 @@ digraph {
         VariableExpression -> NamedEntity;
         
         JavaExpressionStatement -> Expression;
-        JavaReturnStatement -> Expression;
-        WhileStatement -> Expression;
-        DoStatement -> Expression;
-        IfStatement -> Expression;
-        ForStatement -> Expression;
+        JavaReturnStatement     -> Expression;
+        WhileStatement          -> Expression;
+        DoStatement             -> Expression;
+        IfStatement             -> Expression;
+        ForStatement            -> Expression;
         
         JavaExpressionStatement -> Statement;
-        JavaReturnStatement -> Statement;
-        WhileStatement -> Statement;
-        DoStatement -> Statement;
-        IfStatement -> Statement;
-        IfStatement -> Statement;
-        ForStatement -> Statement;
-        ForStatement -> Statement;
-        ForStatement -> Statement;
+        JavaReturnStatement     -> Statement;
+        WhileStatement          -> Statement;
+        DoStatement             -> Statement;
+        IfStatement             -> Statement;
+        IfStatement             -> Statement;
+        ForStatement            -> Statement;
+        ForStatement            -> Statement;
+        ForStatement            -> Statement;
+        
+        SwitchStatement -> Statement;
+        SwitchStatement -> Expression;
         
         VariableDeclarationStatement -> VariableDeclarator;
+        
+        Parenthesis -> Expression;
+        MethodInvocation -> PrimaryExpression;
+        MethodInvocation -> Expression;
     }
 
     BehaviouralEntity -> NamedEntity;
@@ -64,4 +87,5 @@ digraph {
         
     VariableDeclarator -> NamedEntity;
     VariableDeclarator -> Expression;
+    CaseStatement -> SwitchStatement;
 }

@@ -6,7 +6,7 @@ digraph {
     }
 
     subgraph inheritance {
-        edge[dir="back"; arrowtail="empty"];
+        edge[dir="back"; arrowtail="empty"; arrowsize="1.75"];
         color=white;
             
         subgraph clusterStatementBehaviouralEntity{

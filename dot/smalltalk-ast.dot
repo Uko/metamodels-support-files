@@ -1,6 +1,5 @@
 digraph {
     
-    
     subgraph famix {
         node[color="gray"];
         FAMIXBehaviouralEntity;

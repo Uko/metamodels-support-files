@@ -54,7 +54,7 @@
 			CodeGeneration
 		</plugin>
 </profile>
-<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Tue Feb 26 16:36:11 CET 2013'>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Thu Mar 28 16:24:49 CET 2013'>
   <XMI.header>    <XMI.documentation>
       <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
       <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
@@ -707,7 +707,7 @@
       stroke="1"
       strokecolor="black"
     >
-      <moveto x="896"
+      <moveto x="912"
               y="120" />
       <lineto x="808"
               y="120" />
@@ -718,7 +718,7 @@
     </path>
   </group>
   <group name="Fig2"
-       description="org.argouml.uml.diagram.static_structure.ui.FigClass[896, 80, 108, 68]pathVisible=false;stereotypeView=0;operationsVisible=true;attributesVisible=true;"
+       description="org.argouml.uml.diagram.static_structure.ui.FigClass[912, 80, 108, 68]pathVisible=false;stereotypeView=0;operationsVisible=true;attributesVisible=true;"
        href="-64--88-0-32-4051d98a:13a873c0985:-8000:0000000000000A92"
        fill="1"
        fillcolor="white"
@@ -729,7 +729,7 @@
     </private>
     
     <rectangle name="Fig2.0"
-      x="896"
+      x="912"
       y="80"
       width="108"
       height="68"
@@ -739,7 +739,7 @@
       strokecolor="black"
     />
     <text name="Fig2.1"
-      x="897"
+      x="913"
       y="81"
       width="106"
       height="23"
@@ -755,7 +755,7 @@
       justification="Center"
     >FASTStatement</text>
     <group name="Fig2.2"
-         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[897, 81, 106, 0]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[913, 81, 106, 0]"
          href="-64--88-0-32-4051d98a:13a873c0985:-8000:0000000000000A92"
          fill="0"
          fillcolor="white"
@@ -767,7 +767,7 @@
       </private>
       
       <rectangle name="Fig2.2.0"
-        x="897"
+        x="913"
         y="81"
         width="106"
         height="0"
@@ -778,7 +778,7 @@
       />
     </group>
     <rectangle name="Fig2.3"
-      x="896"
+      x="912"
       y="104"
       width="108"
       height="1"
@@ -788,7 +788,7 @@
       strokecolor="black"
     />
     <group name="Fig2.4"
-         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[897, 105, 106, 21]"
+         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[913, 105, 106, 21]"
          href="-64--88-0-32-4051d98a:13a873c0985:-8000:0000000000000A92"
          fill="0"
          fillcolor="white"
@@ -799,7 +799,7 @@
       </private>
       
       <rectangle name="Fig2.4.0"
-        x="897"
+        x="913"
         y="105"
         width="106"
         height="21"
@@ -810,7 +810,7 @@
       />
     </group>
     <rectangle name="Fig2.5"
-      x="896"
+      x="912"
       y="125"
       width="108"
       height="1"
@@ -820,7 +820,7 @@
       strokecolor="black"
     />
     <group name="Fig2.6"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[897, 126, 106, 21]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[913, 126, 106, 21]"
          href="-64--88-0-32-4051d98a:13a873c0985:-8000:0000000000000A92"
          fill="0"
          fillcolor="white"
@@ -831,7 +831,7 @@
       </private>
       
       <rectangle name="Fig2.6.0"
-        x="897"
+        x="913"
         y="126"
         width="106"
         height="21"
@@ -1947,7 +1947,7 @@
     >
       <moveto x="1224"
               y="128" />
-      <lineto x="1003"
+      <lineto x="1019"
               y="128" />
     </path>
   </group>
@@ -1989,7 +1989,7 @@
       justification="Center"
     >FASTStatementBlock</text>
     <group name="Fig16.2"
-         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[897, 169, 105, 0]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[897, 169, 136, 0]"
          href="10--55-9-52-5c0ebd2:13cfdd11f85:-8000:0000000000000A9A"
          fill="0"
          fillcolor="white"
@@ -2003,7 +2003,7 @@
       <rectangle name="Fig16.2.0"
         x="897"
         y="169"
-        width="105"
+        width="136"
         height="0"
         fill="0"
         fillcolor="white"
@@ -2158,9 +2158,9 @@
       stroke="1"
       strokecolor="black"
     >
-      <moveto x="952"
+      <moveto x="968"
               y="168" />
-      <lineto x="952"
+      <lineto x="968"
               y="147" />
     </path>
   </group>
@@ -2293,7 +2293,7 @@
        description="org.argouml.uml.diagram.ui.FigGeneralization"
        href="10--55-9-52-5c0ebd2:13cfdd11f85:-8000:0000000000000AA6"
        stroke="1"
-       strokecolor="51 51 153"
+       strokecolor="black"
   >
     <private>
       sourcePortFig="Fig19.0"
@@ -2312,7 +2312,7 @@
       fill="0"
       fillcolor="white"
       stroke="1"
-      strokecolor="51 51 153"
+      strokecolor="black"
     >
       <moveto x="1200"
               y="208" />
